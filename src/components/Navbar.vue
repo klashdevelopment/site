@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-nav">
   <ul class="nav-ul">
-    <NavIcon src="/website/profile.png" />
+    <NavIcon src="/site/profile.png" />
     <NavItem text="Home" link="/" :active="(activePage == 'home')" />
     <NavItem text="Products" link="products" :right="true" :active="(activePage == 'products')" />
   </ul>
