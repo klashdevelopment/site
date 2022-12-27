@@ -1,0 +1,79 @@
+body {
+  color: white;
+  background-color: #181818;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa-link:hover {
+  cursor: pointer;
+  color: #ff953d;
+}
+.fa-link {
+  color:#DFA87B;
+  margin: 10px;
+  width:28px;
+  height:28px;
+}
+.nav-nav {
+  border: 5px solid black;
+  border-radius: 3px;
+  }
+  .nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  }
+  .nav-li {
+  float: left;
+  }
+  a.blue {
+    color: rgb(67, 67, 255);
+  }
+  .download-button {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'JetBrains Mono';
+    border: 2px solid aquamarine;
+    background-color: rgb(98, 201, 167);
+  }
+  .download-button:hover {
+    background-color: rgb(104, 214, 178);
+    font-weight: 500;
+    border: 2px solid white;
+    scale: 1.25;
+    transition-duration: 0.5s;
+  }
+  .download-button:active {
+    scale: 1.15;
+  }
+  .download-button:not(:hover) {
+    scale: 1;
+    transition-duration: 0.5s;
+  }
+  .codefont {
+    font-family: 'JetBrains Mono';
+  }
+  .codefont-bold {
+    font-family: 'JetBrains Mono Bold';
+  }
+  .arialfont {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav-a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav-a:hover {
+  background-color: #111;
+  }
+  .active {
+  background-color: #04AA6D;
+  }
+  .right {
+  float: right;
+  }
