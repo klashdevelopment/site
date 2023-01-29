@@ -9,13 +9,17 @@
                 title: 'KlashKlient',
                 btntext: 'Download',
                 description: 'The Future of Minecraft PVP Clients.',
-                download: ''
+                download: '',
+                icon: 'cube',
+                color: 'green'
             },
             {
                 title: 'KlashNetwork',
                 btntext: 'Join on Minecraft',
                 description: 'KlashDevelopment\'s Minecraft Server. Best with KlashKlient!', 
-                download: 'javascript:(function(){prompt(\'Java: Join the server ip in 1.19.2.\\nBedrock: Join the server IP with this port: 19133\', \'klashnetwork.minecraft.best\');}())'
+                download: 'javascript:(function(){prompt(\'Java: Join the server ip in 1.19.2.\\nBedrock: Join the server IP with this port: 19133\', \'klashnetwork.minecraft.best\');}())',
+                icon: 'server',
+                color: 'green'
             }
         ]" />
         <ProductSection company="Ropoid Studios (Formerly Garfuncle Inc.)" :products="[
@@ -23,7 +27,9 @@
                 title: 'Ætheria & Beyond',
                 btntext: 'Download',
                 description: 'An open-world multi-campaign RP game with elements similar to D&D but with many unique suprises, twists, and turns.',
-                download: 'javascript:(function(){alert(\'This game is still in development.\');}())'
+                download: 'javascript:(function(){alert(\'This game is still in development.\');}())',
+                icon: 'wand-sparkles',
+                color: 'red'
             }
         ]" />
         <ProductSection company="PotatoCat Game Studios" :products="[]" />
@@ -33,19 +39,25 @@
                 title: 'Klixboard',
                 description: 'A high quality gaming keyboard.',
                 btntext: 'Purchase',
-                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())'
+                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())',
+                icon: 'keyboard',
+                color: 'blue'
             },
             {
                 title: 'Klixmouse',
                 description: 'A high quality gaming mouse.',
                 btntext: 'Purchase',
-                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())'
+                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())',
+                icon: 'computer-mouse',
+                color: 'blue'
             },
             {
                 title: 'Kliktop',
                 description: 'A high quality gaming laptop.',
                 btntext: 'Purchase',
-                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())'
+                download: 'javascript:(function(){alert(\'Not avalible for purchase\');}())',
+                icon: 'laptop-house',
+                color: 'blue'
             }
         ]" />
         <ProductSection company="Klash Software" :products="[
@@ -53,7 +65,17 @@
                 title: 'Bluefire OS',
                 btntext: 'Download',
                 description: 'An operating system made for everyone.',
-                download: 'javascript:(function(){alert(\'Not avalible for download. Going to be bundled on Klix products.\');}())'
+                download: 'javascript:(function(){alert(\'Not avalible for download. Going to be bundled on Klix products.\');}())',
+                icon: 'fire-alt',
+                color: 'blue'
+            },
+            {
+                title: 'Ghosthost',
+                btntext: 'Download',
+                description: 'A VPS & Webserver host for super cheap prices.',
+                download: 'javascript:(function(){alert(\'Ghosthost is not yet avalible.\');}())',
+                icon: 'ghost',
+                color: 'red'
             }
         ]" />
 
