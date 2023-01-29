@@ -12,15 +12,15 @@
     margin-top: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
-    transition: border-color 0.5s ease;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibutton:hover {
     border: 3px solid #6bff1c;
-    transition: border-color 0.5s ease-in-out;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibutton:hover .fa-link2 {
     transform: rotate(360deg) scale(1.5);
-    transition: transform 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   
   .minibuttondel {
@@ -33,15 +33,15 @@
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    transition: border-color 0.5s ease;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibuttondel:hover {
     border: 3px solid #ff1c1c;
-    transition: border-color 0.5s ease-in-out;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibuttondel:hover .fa-link2 {
     transform: rotate(360deg) scale(1.5);
-    transition: transform 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out;
   }
   .fa-link-del-colors {
     color:#df7b7b;
@@ -77,21 +77,22 @@
     margin-top: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
-    transition: border-color 0.5s ease;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibuttonblue:hover {
     border: 3px solid #1c3eff;
-    transition: border-color 0.5s ease;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .minibuttonblue:hover .fa-link2 {
     transform: rotate(360deg) scale(1.5);
-    transition: transform 0.4s ease;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .fa-link-blue-colors {
     color:#7bcbdf;
-    transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
   .fa-link-blue-colors:hover {
     color:#1c3eff;
     cursor: pointer;
+    transition: color 0.4s ease-in-out, transform 0.4s ease-in-out, border-color 0.5s ease-in-out;
   }
