@@ -29,6 +29,14 @@
                 description: 'An open-world multi-campaign RP game with elements similar to D&D but with many unique suprises, twists, and turns.',
                 download: 'javascript:(function(){alert(\'This game is still in development.\');}())',
                 icon: 'wand-sparkles',
+                color: 'blue'
+            },
+            {
+                title: 'Mythos beyond the 3rd axis',
+                btntext: 'Download',
+                description: 'Mythos beyond the 3rd axis is a game where players battle in a high-speed, movement-based 4D arena shooter to harness the power of an ancient civilization's technology.',
+                download: 'javascript:(function(){alert(\'This game is still in development.\');}())',
+                icon: 'gun',
                 color: 'red'
             }
         ]" />
